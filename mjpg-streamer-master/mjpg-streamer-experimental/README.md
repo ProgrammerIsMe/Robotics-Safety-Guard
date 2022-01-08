@@ -11,6 +11,7 @@ When launching mjpg-streamer, you specify one or more input plugins and an outpu
 	mjpg_streamer -i input_uvc.so -o output_http.so
 
 and the robot use the command like this:
+
 	mjpg_streamer -i "input_uvc.so -d /dev/video0 -f 10 -y" -o "output_http.so -w ./www"
 
 
