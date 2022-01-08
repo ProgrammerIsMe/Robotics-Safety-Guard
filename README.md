@@ -2,7 +2,7 @@
 Home safety is one of the basic and important needs for all people. My project is named Safety Guard, mainly used for home security monitoring. Ideation is to develop a user-friendly, self-monitoring robot that can be operated from remote locations for home safety. Designed robot contains an application on mobile phones and smart home security camera on Raspberry Pi so the user could "walk around" the environment remotely.
 
 ## Components
-Paspberry Pi 3b+, L293D(H-bridge), raspberry camera v2.1, motor*2, wheel*2, power supply(both for raspberry pi and L293D), cabel*n
+Paspberry Pi 3b+, L293D(H-bridge), raspberry camera v2.1, motor *2, wheel *2, power supply(both for raspberry pi and L293D), cabel *n
 
 ## Schematics
 ![image](https://github.com/ProgrammerIsMe/Robotics-Safety-Guard/blob/main/schematics/Components.png)
@@ -13,7 +13,7 @@ Connect your computer/mobile phone and raspberry with the wifi, open the page ht
 ![image](https://github.com/ProgrammerIsMe/Robotics-Safety-Guard/blob/main/schematics/Safety%20Guard.jpg)
 
 ## Required libraries
-gpozero, mjpg-streamer, flask, flask-socketio
+gpozero, mjpg-streamer, flask==1.1.2, flask-socketio==4.0.1
 
 ## Reference
 [1] Smart Home Security Cameras Market Analysis Report [EB/OL]. https://www.grandviewresearch.com/industry-analysis/smart-home-security-camera-market. 2021-12-12.  
